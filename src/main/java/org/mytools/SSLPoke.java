@@ -1,8 +1,12 @@
+package org.mytools;
+
+import java.io.InputStream;
+import java.io.OutputStream;
+
 import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
-import java.io.*;
 
-/** 
+/**
  * Establish a SSL connection to a host and port, writes a byte and prints the response. <br />
  * See http://confluence.atlassian.com/display/JIRA/Connecting+to+SSL+services
  * See https://confluence.atlassian.com/kb/unable-to-connect-to-ssl-services-due-to-pkix-path-building-failed-779355358.html
